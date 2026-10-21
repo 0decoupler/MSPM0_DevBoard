@@ -705,8 +705,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -2.54 0)
+			(pin power_out line
+				(at 0 -5.08 0)
 				(length 5.08)
 				(name "VCORE"
 					(effects
@@ -814,7 +814,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.62 0)
+				(at 0 -8.89 0)
 				(length 5.08)
 				(name "RST_N"
 					(effects
@@ -868,7 +868,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -82.55 180)
+				(at 0 -2.54 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
