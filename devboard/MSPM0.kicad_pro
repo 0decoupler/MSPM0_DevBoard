@@ -416,7 +416,7 @@
         "uuid": "3004d868-29f4-471c-a613-f1fb79301ae2"
       }
     ],
-    "used_designators": "MES1,J1-2,J4,SW1-2,R1-16,C1-16,D1-3,#PWR1-35,Y1,F1,U1-4",
+    "used_designators": "MCU1,USB\\-UART1,#FLG1-4,CAN\\-FD1,JP1,MES1,J1-2,J4,U1-4,C1-16,SW1-3,Polyfuse1,R1-17,Y1-2,D1-3,#PWR1-38,TP1-2,F1",
     "variants": []
   },
   "sheets": [
