@@ -7280,6 +7280,10 @@
 		(uuid "98cc4980-58ad-488c-97d2-34ac0f720b66")
 	)
 	(no_connect
+		(at 266.7 44.45)
+		(uuid "9e7889c8-278f-4e69-b1f9-9ab243193c8d")
+	)
+	(no_connect
 		(at 180.34 102.87)
 		(uuid "9f2ee7d0-ff9c-4ea3-956c-9672d935a331")
 	)
@@ -8970,6 +8974,16 @@
 		)
 		(uuid "44cc79fd-1d40-42a3-8773-c7de8d75599b")
 	)
+	(label "SPI_CS0"
+		(at 266.7 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "494c1c74-0e2e-46b7-bd68-b6e111cd7679")
+	)
 	(label "3V3_MCU"
 		(at 266.7 24.13 0)
 		(effects
@@ -8992,6 +9006,16 @@
 			(justify right bottom)
 		)
 		(uuid "52f7043d-3f46-4de9-9e59-609f5cedd311")
+	)
+	(label "SPI_SCLK"
+		(at 266.7 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "607e6d44-1d8f-489a-a216-50adc101cb89")
 	)
 	(label "3V3_MCU"
 		(at 203.2 48.26 0)
@@ -9098,6 +9122,16 @@
 			(justify right bottom)
 		)
 		(uuid "9487c906-1f25-4674-a20e-970e7807416d")
+	)
+	(label "I2C_SCL"
+		(at 266.7 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97f90275-aa89-49ff-bd01-4a9daa691a3b")
 	)
 	(label "CAN_RX"
 		(at 119.38 72.39 180)
@@ -9301,6 +9335,16 @@
 			(justify right bottom)
 		)
 		(uuid "db0fb90d-b6dc-4d56-84ab-5563a11740fc")
+	)
+	(label "I2C_SDA"
+		(at 266.7 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc12c988-dd72-49d8-8b25-c501cac58b27")
 	)
 	(label "3V3_MCU"
 		(at 91.44 16.51 0)
@@ -13531,6 +13575,86 @@
 			(project "MSPM0"
 				(path "/3004d868-29f4-471c-a613-f1fb79301ae2"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 57.15 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66fc3673-60ef-4900-ad24-ddbb2a42b2eb")
+		(property "Reference" "#PWR046"
+			(at 273.05 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4d84c5b-7cfe-46d5-9e93-3593ea38c61f")
+		)
+		(instances
+			(project "MSPM0"
+				(path "/3004d868-29f4-471c-a613-f1fb79301ae2"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
