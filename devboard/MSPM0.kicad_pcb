@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -3083,11 +3082,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2f6c53ed-2632-472c-aee9-95a094b122cc")
-		(at 146.145 102.855)
+		(at 212.27 59.75 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 -1.16 0)
+			(at 4.52 -0.75 90)
 			(layer "F.SilkS")
 			(uuid "f5cec01e-2972-4ea5-8090-99d65c78af6b")
 			(effects
@@ -3155,16 +3154,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc08a418-584d-4851-9244-1fbceddfb9ca")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -3173,6 +3162,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "bdd80e3f-1bc1-4ea1-9a91-bf70413a8dc0")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fc08a418-584d-4851-9244-1fbceddfb9ca")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -3208,7 +3207,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3217,7 +3216,7 @@
 			(uuid "9c966e3b-8911-48af-9714-8f402fd23413")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5003,7 +5002,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 1.25 90)
+			(at 5.25 -0.7 180)
 			(layer "F.SilkS")
 			(uuid "ba39041e-b55c-4b6e-85da-12a00c5aedb1")
 			(effects
@@ -6004,7 +6003,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.17 90)
+			(at 6.76 0.55 180)
 			(layer "F.SilkS")
 			(uuid "5814ff95-02dc-4cc2-9751-d0092ac555a3")
 			(effects
@@ -6318,7 +6317,7 @@
 		(uuid "620de0b4-2c72-4edb-8af8-42f75395db80")
 		(at 201.155001 48.809144 90)
 		(tags "TCAN1044AVDDFRQ1.A ")
-		(property "Reference" "CANFD"
+		(property "Reference" "CAN-FD1"
 			(at 0.059144 2.644999 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -6781,7 +6780,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0.23 -1.25 0)
+			(at -0.07 -1.25 0)
 			(layer "F.SilkS")
 			(uuid "63960e9c-d2de-45d4-8697-2cac0cf7d6cc")
 			(effects
@@ -14087,7 +14086,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at -2.99 -0.04 0)
+			(at 2.56 -0.04 0)
 			(layer "F.SilkS")
 			(uuid "d43617ab-3b08-4702-93e8-da86a1cf8441")
 			(effects
@@ -14756,22 +14755,6 @@
 		)
 	)
 	(segment
-		(start 195.82 45.73)
-		(end 195.8 45.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "09a9ee9a-c201-4d86-a57f-0a9c494ccf71")
-	)
-	(segment
-		(start 198.05 45.73)
-		(end 195.82 45.73)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "1278e6c1-0ac2-4711-a68e-24902e6e19f7")
-	)
-	(segment
 		(start 210.55 60.5)
 		(end 210.55 60.79)
 		(width 0.5)
@@ -14804,28 +14787,36 @@
 		(uuid "c3c2f2fc-20c9-4306-a066-7316dec2b63b")
 	)
 	(segment
-		(start 196.547106 49.27)
-		(end 195.84 49.27)
+		(start 195.82 45.73)
+		(end 195.8 45.75)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "/SWDIO")
-		(uuid "148c3ac3-13a7-4b7e-b973-a9b56de26b8f")
+		(net "+3V3")
+		(uuid "09a9ee9a-c201-4d86-a57f-0a9c494ccf71")
 	)
 	(segment
-		(start 198.05 47.767106)
-		(end 196.547106 49.27)
+		(start 198.05 45.73)
+		(end 195.82 45.73)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "/SWDIO")
-		(uuid "939e0e26-0f2c-4c72-9253-b6e0cea15a0b")
+		(net "+3V3")
+		(uuid "1278e6c1-0ac2-4711-a68e-24902e6e19f7")
 	)
 	(segment
-		(start 198.05 46.75)
-		(end 198.05 47.767106)
-		(width 0.3)
+		(start 211.905 57.725)
+		(end 211.905 59.635)
+		(width 0.2)
 		(layer "F.Cu")
-		(net "/SWDIO")
-		(uuid "dbb626c5-29ca-4132-838d-bfa2b646cdb1")
+		(net "+3V3")
+		(uuid "3386ec2c-64bd-4a90-8495-e53de5ca1fcf")
+	)
+	(segment
+		(start 211.905 59.635)
+		(end 211.79 59.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "e5c466df-9ddd-43ff-b753-3080305cb073")
 	)
 	(segment
 		(start 209.3 57.79)
@@ -14860,6 +14851,30 @@
 		(uuid "0e9eb49a-b39f-433b-9060-ccc5ddcf0b3d")
 	)
 	(segment
+		(start 213.175 58.699999)
+		(end 214.725001 60.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(USB-UART1-UD+)")
+		(uuid "4acd48a1-1034-45ee-b61c-03557ed0f610")
+	)
+	(segment
+		(start 213.175 57.725)
+		(end 213.175 58.699999)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(USB-UART1-UD+)")
+		(uuid "a47e5819-5b6e-4e5c-8bf4-554b4c5fd222")
+	)
+	(segment
+		(start 214.725001 60.25)
+		(end 219.65 60.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(USB-UART1-UD+)")
+		(uuid "bbe80cfb-ff73-4ec6-8a54-70c180496a33")
+	)
+	(segment
 		(start 215.145001 59.4)
 		(end 219.65 59.4)
 		(width 0.3)
@@ -14884,28 +14899,28 @@
 		(uuid "49e6929a-50d8-4a17-b841-5198dd09c85b")
 	)
 	(segment
-		(start 213.175 58.699999)
-		(end 214.725001 60.25)
+		(start 196.547106 49.27)
+		(end 195.84 49.27)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(USB-UART1-UD+)")
-		(uuid "4acd48a1-1034-45ee-b61c-03557ed0f610")
+		(net "/SWDIO")
+		(uuid "148c3ac3-13a7-4b7e-b973-a9b56de26b8f")
 	)
 	(segment
-		(start 213.175 57.725)
-		(end 213.175 58.699999)
+		(start 198.05 47.767106)
+		(end 196.547106 49.27)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(USB-UART1-UD+)")
-		(uuid "a47e5819-5b6e-4e5c-8bf4-554b4c5fd222")
+		(net "/SWDIO")
+		(uuid "939e0e26-0f2c-4c72-9253-b6e0cea15a0b")
 	)
 	(segment
-		(start 214.725001 60.25)
-		(end 219.65 60.25)
+		(start 198.05 46.75)
+		(end 198.05 47.767106)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(USB-UART1-UD+)")
-		(uuid "bbe80cfb-ff73-4ec6-8a54-70c180496a33")
+		(net "/SWDIO")
+		(uuid "dbb626c5-29ca-4132-838d-bfa2b646cdb1")
 	)
 	(embedded_fonts no)
 )
