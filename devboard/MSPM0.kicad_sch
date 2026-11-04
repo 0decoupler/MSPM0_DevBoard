@@ -12723,7 +12723,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52047cd9-c6e2-4c30-9ca3-3dae40380181")
 		(property "Reference" "TP2"
 			(at 17.018 17.78 90)
@@ -14842,7 +14841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 90.17 87.63 0)
 			(hide yes)
 			(show_name no)
