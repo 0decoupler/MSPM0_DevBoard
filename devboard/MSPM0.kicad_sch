@@ -7388,6 +7388,10 @@
 		(uuid "a2051757-f00c-4d1a-986a-a5adda5bebe1")
 	)
 	(no_connect
+		(at 119.38 44.45)
+		(uuid "a4e3c670-ff1e-420b-8d1f-fb7a79efa9e4")
+	)
+	(no_connect
 		(at 180.34 105.41)
 		(uuid "a8d32ca2-c94b-4d50-826e-2041adb1ddf8")
 	)
@@ -8255,16 +8259,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 44.45) (xy 104.14 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3ce846-819b-433c-961e-131ecd2ffc80")
-	)
-	(wire
-		(pts
 			(xy 76.2 31.75) (xy 119.38 31.75)
 		)
 		(stroke
@@ -8342,16 +8336,6 @@
 			(type default)
 		)
 		(uuid "96914d3d-1be2-4be2-8040-e889af7fcabc")
-	)
-	(wire
-		(pts
-			(xy 111.76 44.45) (xy 119.38 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "973129f7-1900-4c6b-9eaf-f37edad3f57f")
 	)
 	(wire
 		(pts
@@ -12785,85 +12769,6 @@
 			(project "MSPM0"
 				(path "/3004d868-29f4-471c-a613-f1fb79301ae2"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 102.87 44.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52d160a0-ae7b-49b2-8093-b7eb11677dbc")
-		(property "Reference" "#PWR015"
-			(at 96.52 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "834880ae-391f-4c03-9ad7-bb960bbbee6f")
-		)
-		(instances
-			(project "MSPM0"
-				(path "/3004d868-29f4-471c-a613-f1fb79301ae2"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18078,106 +17983,6 @@
 			(project "MSPM0"
 				(path "/3004d868-29f4-471c-a613-f1fb79301ae2"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed321aa2-eeb4-4cb3-b2a6-83ccb6491630")
-		(property "Reference" "R4"
-			(at 107.95 42.164 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 107.95 40.386 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 46.228 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCR" "25ppm/°C"
-			(at 105.918 51.054 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 108.204 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "117b34f8-b0c1-4dc1-82c1-89b6519136f3")
-		)
-		(pin "2"
-			(uuid "bdac2291-a0de-44ba-b298-bf160b4c3d9b")
-		)
-		(instances
-			(project "MSPM0"
-				(path "/3004d868-29f4-471c-a613-f1fb79301ae2"
-					(reference "R4")
 					(unit 1)
 				)
 			)
