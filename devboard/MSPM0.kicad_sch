@@ -6870,7 +6870,7 @@
 		(uuid "0505c987-37fe-473f-8553-c121c63cc523")
 	)
 	(rectangle
-		(start 187.706 80.772)
+		(start 189.484 80.772)
 		(end 283.718 149.098)
 		(stroke
 			(width 0)
@@ -7008,7 +7008,7 @@
 	)
 	(text "USB Type-C -> USB-UART Bridge\n"
 		(exclude_from_sim no)
-		(at 214.376 78.994 0)
+		(at 215.646 78.486 0)
 		(effects
 			(font
 				(size 2 2)
@@ -7320,12 +7320,20 @@
 		(uuid "41318b28-3173-417f-b4e0-75f13b2e33ab")
 	)
 	(no_connect
+		(at 119.38 46.99)
+		(uuid "4a29c090-5dc1-4ea4-8a6c-12f62f79722e")
+	)
+	(no_connect
 		(at 165.1 118.11)
 		(uuid "528cd26f-ab37-4f02-8f32-3f7c24f22bae")
 	)
 	(no_connect
 		(at 180.34 39.37)
 		(uuid "544ba3b0-6e16-4f3e-94ed-38220d9dd29e")
+	)
+	(no_connect
+		(at 119.38 49.53)
+		(uuid "58683240-26f4-4624-b70f-8619b51d4b05")
 	)
 	(no_connect
 		(at 72.39 95.25)
@@ -7366,10 +7374,6 @@
 	(no_connect
 		(at 257.81 130.81)
 		(uuid "98cc4980-58ad-488c-97d2-34ac0f720b66")
-	)
-	(no_connect
-		(at 180.34 102.87)
-		(uuid "9f2ee7d0-ff9c-4ea3-956c-9672d935a331")
 	)
 	(no_connect
 		(at 130.81 154.94)
@@ -7446,10 +7450,6 @@
 	(no_connect
 		(at 72.39 97.79)
 		(uuid "dfbfd748-2d83-4fa4-8c2e-afe4f511168f")
-	)
-	(no_connect
-		(at 180.34 100.33)
-		(uuid "e02ec1af-9b5d-4a30-a57d-46b50dbc9987")
 	)
 	(no_connect
 		(at 257.81 123.19)
@@ -8185,16 +8185,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 49.53) (xy 99.06 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81bae500-3100-4643-8f7e-43549d9035ce")
-	)
-	(wire
-		(pts
 			(xy 271.78 52.07) (xy 271.78 49.53)
 		)
 		(stroke
@@ -8582,16 +8572,6 @@
 			(type default)
 		)
 		(uuid "bb6e43bd-799a-4939-a9ce-c8b3fb3763e2")
-	)
-	(wire
-		(pts
-			(xy 119.38 46.99) (xy 96.52 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb842792-5e53-4d66-9542-a37726c9cd30")
 	)
 	(wire
 		(pts
@@ -9006,6 +8986,16 @@
 		)
 		(uuid "25ede0ac-2b4c-4332-b0f4-03ee59f3d2b7")
 	)
+	(label "I2C_SCL"
+		(at 180.34 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "293d3277-e774-4d60-94a2-e564e11dd9b9")
+	)
 	(label "CAN_TX"
 		(at 40.64 165.1 180)
 		(effects
@@ -9312,6 +9302,16 @@
 		)
 		(uuid "865436bb-2de3-4cf6-bb1f-4b68559e51ca")
 	)
+	(label "I2C_SDA"
+		(at 180.34 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a126331-e8a8-419c-b28c-b0a2737224b7")
+	)
 	(label "3V3_MCU"
 		(at 203.2 33.02 0)
 		(effects
@@ -9376,12 +9376,12 @@
 		(uuid "9c9fece4-72dc-4f0a-b4fd-1b5c97458cd1")
 	)
 	(label "I2C_SCL"
-		(at 119.38 49.53 180)
+		(at 99.06 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a3e8d3b8-52b1-4dca-8cb5-87dc39d854b8")
 	)
@@ -9396,12 +9396,12 @@
 		(uuid "a58d320e-d5ba-4a48-b4a0-9822c9708cf7")
 	)
 	(label "I2C_SDA"
-		(at 119.38 46.99 180)
+		(at 96.52 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a9f560b6-8d07-4f1f-a213-11e07940be02")
 	)

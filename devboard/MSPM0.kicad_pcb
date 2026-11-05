@@ -8657,7 +8657,7 @@
 		(property "Reference" "C2"
 			(at -1.8 0.1 0)
 			(layer "F.SilkS")
-			(uuid "be0e1e33-9482-4c6c-bbb0-54c0521be859")
+			(uuid "115e264b-fe3b-450b-b589-ebf38afa8634")
 			(effects
 				(font
 					(size 1 1)
@@ -8668,7 +8668,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "cf24bcce-1d70-486f-bb74-ad539b0f1dd9")
+			(uuid "5c41c962-1dfe-4c63-b9af-b729aa1c8683")
 			(effects
 				(font
 					(size 1 1)
@@ -8680,7 +8680,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7983a6b-8d81-45da-9ecf-515c3106c181")
+			(uuid "d370be7b-6c65-4cb8-945d-559ee7158cba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8691,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb59ce72-4c9f-476d-98e9-25265cd4ada3")
+			(uuid "341ee686-2d0e-46a4-9e03-ed2465af9042")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,13 +8967,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "93e83c7d-b642-4f34-8c3b-fa6c897c380c")
-		(at 198.2 70.61 90)
+		(at 199.21 67.2)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at -1.89 0.5 90)
+			(at -1.89 0.5 0)
 			(layer "F.SilkS")
-			(uuid "35e812ea-e6d9-4271-9fa2-460ecad3b8c7")
+			(uuid "58fdb665-161f-4594-8f1c-824b463f2c5e")
 			(effects
 				(font
 					(size 1 1)
@@ -8982,9 +8982,9 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.17 90)
+			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "4ef265c9-8b48-43aa-be00-6666948376f6")
+			(uuid "8809b61d-4979-4176-b360-9191261f5f4a")
 			(effects
 				(font
 					(size 1 1)
@@ -8993,10 +8993,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6006110-67b7-4cda-9d66-ddcc282db252")
+			(uuid "37a9ad8c-caf0-40fd-9a6c-d01a397d3486")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,10 +9004,10 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ddfac7b-8ccf-4cf9-8178-5031a1cef907")
+			(uuid "74d009af-513e-42fe-9f56-27bd5de20dbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9015,7 +9015,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d0838483-1ee0-4fda-9d6c-c2257a16db78")
@@ -9027,7 +9027,7 @@
 			)
 		)
 		(property "TCR" "25ppm/°C"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9040,7 +9040,7 @@
 			)
 		)
 		(property "Tolerance" "0.1%"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9107,7 +9107,7 @@
 			(uuid "73b4ec01-872a-4faf-9a5d-3fca11f9e4f5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "785cfdef-6747-4855-8468-89f593cb624e")
 			(effects
@@ -9118,7 +9118,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 90)
+			(at -0.51 0)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9127,7 +9127,7 @@
 			(uuid "a55530ce-b239-4e45-8de0-40fc82605fe8")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 90)
+			(at 0.51 0)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12728,18 +12728,18 @@
 			(at 5.675483 2.250001)
 			(size 0.312473 1.955236)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(MCU1-PA29-Pad36)")
+			(net "/I2C_SCL")
 			(pinfunction "PA29_36")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "231bb646-a958-4d81-9257-cf4a204f3fc2")
 		)
 		(pad "37" smd rect
 			(at 5.675483 1.749999)
 			(size 0.312473 1.955236)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(MCU1-PA30-Pad37)")
+			(net "/I2C_SDA")
 			(pinfunction "PA30_37")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "f5e8d98e-b97c-4123-ac67-ac47165f16c0")
 		)
 		(pad "38" smd rect
@@ -12791,18 +12791,18 @@
 			(at 5.675483 -1.25)
 			(size 0.312473 1.955236)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/I2C_SDA")
+			(net "unconnected-(MCU1-PA3_LFXIN-Pad43)")
 			(pinfunction "PA3_LFXIN_43")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7e295486-66d8-4079-9c27-734455688837")
 		)
 		(pad "44" smd rect
 			(at 5.675483 -1.749999)
 			(size 0.312473 1.955236)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/I2C_SCL")
+			(net "unconnected-(MCU1-PA4_LFXOUT-Pad44)")
 			(pinfunction "PA4_LFXOUT_44")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "24717932-527c-4e70-bc8a-d62a32501caa")
 		)
 		(pad "45" smd rect
@@ -13982,7 +13982,7 @@
 		(property "Reference" "C1"
 			(at -2.4 0.2 0)
 			(layer "F.SilkS")
-			(uuid "012d54fa-a7b7-4f7e-9750-b3ca3e19c698")
+			(uuid "94915799-97fe-4de8-95dd-3f228a1fc2ac")
 			(effects
 				(font
 					(size 1 1)
@@ -13993,7 +13993,7 @@
 		(property "Value" "10u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "64995ebf-2e48-4e7a-a079-bd90e9095aa5")
+			(uuid "99790953-6df7-476b-b218-a98316ae382e")
 			(effects
 				(font
 					(size 1 1)
@@ -14005,7 +14005,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b0bb764-4842-4183-8949-c7c8e8f29d62")
+			(uuid "22d42e81-1755-4d6f-8b09-ae505ce3a1c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14016,7 +14016,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5aed2cf3-8c1e-4d17-af2b-cf7fdc802dc0")
+			(uuid "6510389d-d5a9-4fb5-9d6c-6ea61edacd85")
 			(effects
 				(font
 					(size 1.27 1.27)
