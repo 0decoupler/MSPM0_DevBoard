@@ -9283,6 +9283,16 @@
 		)
 		(uuid "9487c906-1f25-4674-a20e-970e7807416d")
 	)
+	(label "USB_D+"
+		(at 237.49 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95781c48-f635-4936-9dea-c9fe515035a5")
+	)
 	(label "PWR_LED1_K"
 		(at 203.2 67.31 270)
 		(effects
@@ -9502,6 +9512,16 @@
 			(justify right bottom)
 		)
 		(uuid "e387cd5a-284e-43ac-9996-a0fff79c5370")
+	)
+	(label "USB_D-"
+		(at 237.49 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e45bc223-142c-4858-a41d-4803e3b0746a")
 	)
 	(label "GPIO_Button2"
 		(at 180.34 54.61 0)
@@ -18600,7 +18620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f86a0802-d3c9-4c5d-a85c-162b7b5d398e")
-		(property "Reference" "J3"
+		(property "Reference" "SWD"
 			(at 48.26 91.4399 0)
 			(hide yes)
 			(show_name no)
@@ -18689,7 +18709,7 @@
 		(instances
 			(project "MSPM0"
 				(path "/3004d868-29f4-471c-a613-f1fb79301ae2"
-					(reference "J3")
+					(reference "SWD")
 					(unit 1)
 				)
 			)
