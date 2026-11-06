@@ -13171,7 +13171,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 219.71 92.71 90)
+		(at 219.71 92.71 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13201,7 +13202,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 223.52 91.7448 0)
+			(at 215.9 91.7448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
