@@ -386,7 +386,7 @@
 		(descr "Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x10 2.54mm single row")
 		(property "Reference" "UNO_DIGITAL_H1"
-			(at 2.624804 4.074573 0)
+			(at -2.126079 4.18 0)
 			(layer "F.SilkS")
 			(uuid "520c3b8f-0cd0-4fda-972c-7b76ea3e2334")
 			(effects
